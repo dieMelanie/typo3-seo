@@ -1,0 +1,51 @@
+
+* {
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.mfc_header {
+	position: absolute;
+	top: 0;
+	left:0;
+	right: 0;
+	max-height: 5rem;
+	z-index:55555;
+
+}
+.mfc_logo {
+	width: 49%;
+	float: left;
+	padding: 2rem 1rem 1rem 15rem;
+}
+.mfc_logo svg  {
+	filter: drop-shadow( -5px -2px 10px #fff );
+
+}
+.mfc_logo_event {
+	float: right;
+	text-align: right;
+	width: 49%;
+	padding: 1rem 10rem 1rem 1rem;
+}
+.mfc_logo_event img,
+.mfc_logo_event svg  {
+	float: right;
+	max-width: 10rem;
+	max-height: 18rem;
+	filter: drop-shadow( -5px 0px 5px #fff );
+}
+
+.mfc_inverse,
+.reveal .mfc_inverse h1,
+.reveal .mfc_inverse h2,
+.reveal .mfc_inverse h3,
+.reveal .mfc_inverse h4,
+.reveal .mfc_inverse h5,
+.reveal .mfc_inverse h6 {
+    color: white;
+    text-shadow: 3px 3px 5px #000;
+}
